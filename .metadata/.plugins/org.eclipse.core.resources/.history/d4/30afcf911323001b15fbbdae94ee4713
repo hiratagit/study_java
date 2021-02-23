@@ -1,0 +1,23 @@
+/**
+ *
+ */
+
+/**
+ * @author dzdq8
+ *
+ */
+public class ObjectJanken {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		Player hirata = new Player("hirata");
+		String name = hirata.getName();
+		System.out.println(name);
+
+	}
+
+}

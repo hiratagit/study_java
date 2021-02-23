@@ -1,0 +1,61 @@
+
+public class Judge {
+
+	public void startJanken(Player player1, Player player2) {
+
+		System.out.println("【ジャンケン開始】\n");
+
+		for(int i = 0; i < 3; i++) {
+
+
+			System.out.println( "【" + (i + 1) + "回戦目】");
+
+
+			Player winner = judgeJanken(player1, player2) {
+
+			}
+
+
+
+
+
+
+		}
+	}
+
+	private Player judgeJanken(Player player1, Player player2) {
+
+		Player winner = null;
+
+		int player1Hand = player1.showHand();
+		int player2Hand = player2.showHand();
+
+		printHand(player1Hand);
+		System.out.println(" vs " );
+		printHand(player2Hand);
+
+
+
+		return winner;
+	}
+
+
+	private void printHand(int hand) {
+
+		switch(hand) {
+		case Player.STONE:
+			System.out.println("グー");
+			break;
+		case Player.SCISSOR:
+			System.out.println("チョキ");
+			break;
+		case Player.PAPPER:
+			System.out.println("パー");
+			break;
+		default :
+			break;
+		}
+
+	}
+
+}

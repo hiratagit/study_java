@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="AccountDAOTest"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Babanuki"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Babanuki (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="LoginLogicTest"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="ObjectJanken"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Sample002"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="SelectEmployeeSample"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="_WelcomeServlet"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="localhost の Tomcat9 (Java11)"/>
+    </category>
+</runner>

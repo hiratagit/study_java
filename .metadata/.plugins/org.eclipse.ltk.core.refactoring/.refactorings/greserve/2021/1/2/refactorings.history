@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from プロジェクト &apos;greserve&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;greserve&apos;&#x0D;&#x0A;- オリジナル要素: &apos;ProductDeleteConfirm.jsp&apos;" description="要素を削除" element1="WebContent/WEB-INF/jsp/ProductDeleteConfirm.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1609659088204" subPackages="false" version="1.0"/>
+</session>

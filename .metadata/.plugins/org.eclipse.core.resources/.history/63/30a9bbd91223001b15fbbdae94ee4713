@@ -1,0 +1,61 @@
+
+public class Player {
+	//ジャンケンの手を表す定数
+	public static final int STONE = 0; //グー
+	public static final int SCISSOR = 1; // チョキ
+	public static final int PAPPER = 2; // パー
+
+	private String name;
+	private int winCount = 0;
+
+	public Player(String name) {
+		this.name = name;
+	}
+
+	//-----------------------
+	//ジャンケンの手を出す
+	//@return ジャンケンの手（int）
+	//-----------------------
+
+	public int showHand() {
+		double random = Math.random() * 3;
+
+		int hand = 0;
+
+		if(random < 1) {
+			hand = STONE;
+		}else if(hand < 2) {
+			hand = SCISSOR;
+		}else if (hand < 3) {
+			hand = PAPPER;
+		}
+
+		return hand;
+	}
+
+	//-----------------------
+	//審判から勝敗を聞く
+	//@param result true:勝ち false:負け
+	//-----------------------
+
+	public void notifihResult(boolean result) {
+		if(result == true) {
+			winCount++;
+		}
+	}
+
+	//-----------------------
+	//トータル勝ち数を答える
+	//@return 勝った回数
+	//-----------------------
+	public int getWinCount() {
+		return this.winCount;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+
+
+}

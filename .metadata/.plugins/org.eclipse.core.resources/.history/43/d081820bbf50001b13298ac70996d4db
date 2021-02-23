@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+
+img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: bottom;
+}
+
+ul li {
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------------
+ base
+--------------------------*/
+
+*{font-family: 'Noto Sans JP', sans-serif;}
+
+.m0auto {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 25px;
+	text-align: center;
+	margin: 1em 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	margin: 1em 0;
+	font-weight: normal;
+}
+h3 {
+	font-size: 20px;
+	text-align: center;
+	margin: .5em auto;
+	font-weight: normal;
+}
+
+
+.buttons a {
+	display: block;
+	width: 200px;
+}
+
+
+input[type="submit"] {
+    margin: 1.5em auto;
+    max-width: 200px;
+    width: 100%;
+}
+
+.form-login{
+	max-width: 480px;
+	margin: 0 auto;
+}
+
+/*---------------------------------
+トップページ
+------------------------------------*/
+.slider-container{
+  max-width: 400px;
+  margin : 0 auto;
+
+  overflow: hidden;
+}
+
+.slider{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 0;
+}
+
+.slide {
+	flex-shrink: 0;
+    flex-basis: 100%;
+}
+
+.in-login {
+	max-width: 400px;
+	width: 100%;
+	margin: 2em auto;
+}
+
+.form-wrapp {
+	border: 1px solid #999;
+	padding: 2em 1em 1em 1em;
+	margin: 2em auto 2em auto;
+	max-width: 580px;
+	border-radius: 6px;
+}
+
+/*---------------------
+　商品ページ
+-----------------------*/
+.productscreen {
+	background-color: lemonchiffon;
+}
+
+.container{ max-width: 780px; margin : 0 auto;}
+
+.product-wrapp {
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 1px 1px 4px #eee inset, -1px -1px 2px #eee inset;
+	border-radius: 6px;
+}
+
+
+@media screen and (max-width: 575px) {
+	.product-text {
+	padding: 1em 1em;
+	}
+}
+
+/*------------------------
+商品一覧ページ
+--------------------------*/
+.text-soldout {
+    position: absolute;
+    color: red;
+    right: 35%;
+    top: 50px;
+    bottom: 0%;
+    right: 0%;
+    font-size: 29px;
+    width: 127px;
+    transform:rotate(-14deg);
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 2px #fff,
+                0px 0px 2px #fff, 0px 0px 2px #fff, 0px 0px 2px #fff, 0px 0px 2px #fff;
+
+}
+
+/*------------------------
+予約・商品詳細ページ
+--------------------------*/
+
+.spec{
+	max-width: 450px;
+	margin: 1em auto 3em auto;
+	background-color: white;
+	border: 2px solid #333;
+	padding: 1em;
+}
+
+.spec ul li {
+	font-size: 15px;
+}
+
+.spec li.soldout {
+	font-size: 25px;
+	text-align: center;
+	padding: .25em 0 0 0;
+	font-weight: bold;
+	color: red;
+}
+
+/*-----------------------------------
+[管理画面]
+---------------------------------*/
+.admin__buttons-wrapp {
+	/*border: 1px solid #777;*/
+	padding: 2em 0 1em 0;
+	margin: 0 auto 2em auto;
+	max-width: 400px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 1px 1px 4px #999 inset, -1px -1px 2px #999 inset;
+}
+
+
+/*-----------------------------------
+[管理画面]共通
+---------------------------------*/
+
+.adminscreen {
+	background-color: #d1cfcf;
+}
+/*---------------------------------------
+[管理画面]　予約状況確認
+--------------------------------------*/
+
+.reservation-status {
+	max-width: 580px;
+	margin: 1.5em auto;
+}
+
+.reservation-status_box {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	margin-bottom: 1em;
+	padding: .5em;
+}
+
+.reservation-status_box ul li.user-id {
+	color: #401584;
+	font-weight: bold;
+}
+
+
+
+
+
+
+

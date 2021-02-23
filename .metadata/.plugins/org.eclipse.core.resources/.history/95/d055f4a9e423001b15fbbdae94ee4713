@@ -1,0 +1,36 @@
+/**
+ *
+ */
+
+/**
+ * @author dzdq8
+ *
+ */
+public class ObjectJanken {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		Player h = new Player("ポン助");
+		Player s = new Player("パー子");
+
+
+		Tactics m = new AskTactics();
+		h.setTacics(m);
+
+		Tactics n = new RandomTactics();
+		s.setTacics(n);
+
+//		Murata Murata = new Murata("村田");
+//		Player Yamada = new Yamada("山田");
+
+		Judge saito = new Judge();
+
+		saito.startJanken(h, s);
+
+	}
+
+}
